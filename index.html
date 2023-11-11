@@ -64,6 +64,12 @@
             background-color: #009688;
             color: white;
         }
+		
+        /* Add styles for the audio player */
+        audio {
+            width: 100%;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -94,6 +100,14 @@
             </tr>
         </tbody>
     </table>
+
+    <!-- Add the audio player with playlist -->
+    <audio controls>
+        <source src="audio1.mp3" type="audio/mp3">
+        <source src="audio2.mp3" type="audio/mp3">
+        <source src="audio3.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
 
 </body>
 </html>
