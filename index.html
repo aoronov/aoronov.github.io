@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alexander Oronov's regimen website</title>
+    <title>Сайт за режим на Александър Оронов</title>
     
     <!-- Add the following style section for CSS -->
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5;
+            background-image: url('background.jpg'); /* Replace 'background.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
             color: #333;
             margin: 20px;
         }
 
         h1 {
             color: #009688;
+            background-color: white; /* Set the background color of the heading to white */
+            padding: 10px; /* Add padding for better visual appeal */
         }
 
         p {
             font-size: 18px;
+            background-color: white; /* Set the background color of the paragraph to white */
+            padding: 10px; /* Add padding for better visual appeal */
         }
 
         ul {
@@ -40,19 +46,54 @@
         a:hover {
             color: #004d40;
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white; /* Set the background color of the table to white */
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #009688;
+            color: white;
+        }
     </style>
 </head>
 <body>
 
-    <h1>Welcome to my regimen website!</h1>
+    <h1>Добре дошли в моя сайт с режими!</h1>
 
-    <p>Check out my awesome regimens:</p>
+    <p>Проверете моите страхотни режими:</p>
 
-    <ul>
-        <li><a href="REZHIM1.html">REZHIM1</a></li>
-        <li><a href="REZHIM2.html">REZHIM2</a></li>
-        <li><a href="REZHIM3.html">REZHIM3</a></li>
-    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Режим</th>
+                <th>Описание</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="REZHIM1.html">РЕЖИМ 1</a></td>
+                <td>Първи режим</td>
+            </tr>
+            <tr>
+                <td><a href="REZHIM2.html">РЕЖИМ 2</a></td>
+                <td>Втори режим</td>
+            </tr>
+            <tr>
+                <td><a href="REZHIM3.html">РЕЖИМ 3</a></td>
+                <td>Трети режим</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 </html>
